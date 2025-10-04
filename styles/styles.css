@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #bdc3c7;
+}
+h1 {
+    color: #9b59b6;
+}
+h2 {
+    color: #800080;
+background-color: #ffa500;
+}
+ul li {
+    color: #000080;
+}
+p {
+    background-color: #ffff00;
+}
+input {
+    border: 3px solid #ff0000;
+}
+.hello {
+    background-color: #ffffff;
+
+}
+#special {
+    border: rgb(0, 0, 128) 2px solid;
+}
+div p {
+    font-size: 25px;
+}
+input[checked="checked"] {
+margin-left: 50px;
+}
+input[type="text"] {
+    background-color: gray;
+}
+div:last-of-type p{
+    background-color: pink;
+}
+div:last-of-type p:nth-child(2) {
+border: white 5px solid;
+}
+div em {
+	color: white;
+	font-size: 20px;
+}
+label{
+    text-transform: uppercase;
+}
+#special {
+    color: green;
+    font-size: 100px;
+}
+h1:hover {
+    color: blue;
+}
+a:visited {
+    color: grey;
+}
